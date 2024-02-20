@@ -38,6 +38,10 @@ public class Sala {
     /*
     * Y ahora creo la opción de reservar un Asiento, y al reservarlo el estado de l abutaca acmbie a Ocupado.
     * */
+
+    /*
+    * He creado una rama nueva para arreglar un fallo en el código pero no lo he conseguido.
+    * */
     public boolean reservarAsiento(int filas, int columnas, String email) {
         if (filas < 0  filas >= butacas.length  columnas < 0 || columnas >= butacas[0].length) {
             System.out.println("La butaca especificada no existe.");
