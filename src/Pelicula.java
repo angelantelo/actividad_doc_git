@@ -11,4 +11,10 @@ public class Pelicula {
         this.titulo = titulo;
         this.duracion = duracion;
     }
+    /*
+    * He creado una opción para ver el Título de la Película.
+    * */
+    public String getTitulo() {
+        return titulo;
+    }
 }
