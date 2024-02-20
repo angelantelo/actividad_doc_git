@@ -13,4 +13,6 @@ public class Main {
             Cine cine = new Cine("Cine Coslada", 100, new Sala[]{sala1, sala2});
             Scanner scanner = new Scanner(System.in);
     }
+
+
 }
